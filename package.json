@@ -1,0 +1,48 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "license": "MIT",
+    "scripts": {
+        "start": "concurrently \"yarn vite\" \"yarn generate:scss-types\"",
+        "build": "vite build",
+        "clean": "rimraf node_modules dist .yarn/unplugged .yarn/install-state.gz",
+        "lint": "yarn lint:js && yarn lint:styles",
+        "lint:fix": "yarn lint:js:fix && yarn lint:styles:fix",
+        "lint:js": "eslint --ext .js,.jsx,.ts,.tsx src/",
+        "lint:js:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx src/",
+        "lint:styles": "stylelint \"**/*.scss\"",
+        "lint:styles:fix": "stylelint \"**/*.scss\" --fix",
+        "generate:scss-types": "typed-scss-modules src --exportType default --nameFormat none -w"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.46",
+        "@types/react-dom": "^18.2.18",
+        "@typescript-eslint/eslint-plugin": "^6.17.0",
+        "@typescript-eslint/parser": "^7.0.2",
+        "@vitejs/plugin-react": "^4.2.1",
+        "concurrently": "^8.2.2",
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-config-standard-with-typescript": "^43.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-json": "^3.1.0",
+        "eslint-plugin-prettier": "^5.1.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.33.2",
+        "prettier": "^3.1.1",
+        "rimraf": "^5.0.5",
+        "sass": "^1.71.1",
+        "stylelint": "^16.1.0",
+        "stylelint-config-standard-scss": "^13.0.0",
+        "typed-scss-modules": "^8.0.0",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.10",
+        "vite-plugin-html": "^3.2.2"
+    },
+    "dependencies": {
+        "classnames": "^2.5.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}

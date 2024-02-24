@@ -1,0 +1,13 @@
+# General project artifacts
+node_modules/
+dist/
+
+# Automatically generated type definitions for styles
+**/*.module.scss.d.ts
+
+# Yarn Zero-Install configuration
+.yarn/*
+!.yarn/releases
+!.yarn/sdks
+!.yarn/plugins
+!.yarn/versions
