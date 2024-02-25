@@ -1,3 +1,6 @@
+@use '../globals/boxShadows.scss' as SHADOWS;
+@use '../globals/colors.scss' as COLORS;
+
 // Position
 .position-relative {
     position: relative;
@@ -42,34 +45,49 @@
 // Padding
 .padding-20 {
     padding: 20px;
+}
 
-    &.vertical {
-        padding: 20px 0;
-    }
-    
-    &.horizontal {
-        padding: 0 20px;
-    }
+.padding-20-vertical {
+    padding: 20px 0;
+}
+
+.padding-20-horizontal {
+    padding: 0 20px;
 }
 
 // Margin
 .margin-20 {
     margin: 20px;
+}
 
-    &.vertical {
-        margin: 20px 0;
-    }
-    
-    &.horizontal {
-        margin: 0 20px;
-    }
+.margin-20-vertical {
+    margin: 20px 0;
+}
+
+.margin-20-horizontal {
+    margin: 0 20px;
 }
 
 // Border Radius
 .border-rounded {
-    border-radius: 9999px;
+    border-radius: 8px;
 }
 
 .border-circle {
     border-radius: 50%;
+}
+
+// page container
+.page {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+// paper
+.paper {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: SHADOWS.$level-1;
+    border: 2px solid rgba(COLORS.$dark-gray, 0.4);
 }

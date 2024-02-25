@@ -1,0 +1,12 @@
+@use '../../styles/globals/boxShadows.scss' as SHADOWS;
+@use '../../styles/globals/colors.scss' as COLORS;
+
+
+.login {
+    width: 100%;
+    max-width: 400px;
+
+    p:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}

@@ -1,5 +1,23 @@
 {
     "extends": "stylelint-config-standard-scss",
-    "rules": {},
-    "ignoreFiles": ["dist/**", "node_modules/**"]
+    "rules": {
+        "selector-id-pattern": [
+            "^[A-Z0-9-]+$",
+            {
+                "message": "Expected id selector to be uppercase"
+            }
+        ],
+        "selector-pseudo-class-no-unknown": [
+            true,
+            {
+                "ignorePseudoClasses": [
+                    "global"
+                ]
+            }
+        ]
+    },
+    "ignoreFiles": [
+        "dist/**",
+        "node_modules/**"
+    ]
 }

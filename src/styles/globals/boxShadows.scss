@@ -1,3 +1,4 @@
 @use '../globals/colors.scss' as COLORS;
 
-$level-1: 0 0 16px rgba(COLORS.$dark-gray, 0.5);
+$level-1: 0 0 16px rgba(COLORS.$dark-gray, 0.2);
+$level-2: 0 0 12px rgba(COLORS.$dark-gray, 0.5);

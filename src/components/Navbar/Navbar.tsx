@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
 
     return (
         <div
-            id={style.navbar}
+            id={style.NAVBAR}
             className={classNames(
                 generics.inline,
                 generics['position-relative']
@@ -78,6 +78,7 @@ const Navbar: React.FC = () => {
                 className={classNames(
                     style.logo,
                     generics['margin-20'],
+                    generics['border-rounded'],
                     generics['position-absolute']
                 )}
             />
@@ -94,8 +95,7 @@ const Navbar: React.FC = () => {
                     style.links,
                     generics.inline,
                     generics['position-relative'],
-                    generics['margin-20'],
-                    generics['vertical']
+                    generics['margin-20-vertical']
                 )}
             >
                 {buildTab(NAVBAR.NEW, 0)}

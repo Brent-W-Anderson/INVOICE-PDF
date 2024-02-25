@@ -7,7 +7,7 @@ import './styles/globals/_index.module.scss'
 import Spinner from './components/Spinner/Spinner'
 const Pages = lazy(() => import('./pages/Pages'))
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById('ROOT')!).render(
     <Suspense fallback={<Spinner />}>
         <Pages />
     </Suspense>

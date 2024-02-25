@@ -42,6 +42,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:5.1.3"],\
           ["eslint-plugin-promise", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:6.1.1"],\
           ["eslint-plugin-react", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:7.33.2"],\
+          ["postcss", "npm:8.4.35"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:18.2.0"],\
@@ -4245,6 +4246,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-prettier", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:5.1.3"],\
           ["eslint-plugin-promise", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:6.1.1"],\
           ["eslint-plugin-react", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:7.33.2"],\
+          ["postcss", "npm:8.4.35"],\
           ["prettier", "npm:3.2.5"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:18.2.0"],\
@@ -5736,7 +5738,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-scss", "virtual:0822f9f6e93a270ea2310c1df9282f4a70232b147fbe82cd49838596c55ed12b23b976131d657324e0d801d6b01a72f67013fe80afcff3413a3d51371752176a#npm:4.0.9"],\
           ["@types/postcss", null],\
-          ["postcss", null]\
+          ["postcss", "npm:8.4.35"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -6636,7 +6638,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint-config-recommended-scss", "virtual:dd8e49c6c65db686f7c3a64f80e65ae3515f63b85ee700f202a52ed4f60eac0da5b6ea4894be3c336d31c340420d828937d203414dc4e856d21740f4df8c71a1#npm:14.0.0"],\
           ["@types/postcss", null],\
           ["@types/stylelint", null],\
-          ["postcss", null],\
+          ["postcss", "npm:8.4.35"],\
           ["postcss-scss", "virtual:0822f9f6e93a270ea2310c1df9282f4a70232b147fbe82cd49838596c55ed12b23b976131d657324e0d801d6b01a72f67013fe80afcff3413a3d51371752176a#npm:4.0.9"],\
           ["stylelint", "npm:16.2.1"],\
           ["stylelint-config-recommended", "virtual:0822f9f6e93a270ea2310c1df9282f4a70232b147fbe82cd49838596c55ed12b23b976131d657324e0d801d6b01a72f67013fe80afcff3413a3d51371752176a#npm:14.0.0"],\
@@ -6688,7 +6690,7 @@ const RAW_RUNTIME_STATE =
           ["stylelint-config-standard-scss", "virtual:34219c45e9a0ccf70ac99013d35639aa36f968acecca186763f707576c24aa393a42c8ae6e34b36b73047898bac34a7f9e30924210c7eccd80b917ffcde06b3d#npm:13.0.0"],\
           ["@types/postcss", null],\
           ["@types/stylelint", null],\
-          ["postcss", null],\
+          ["postcss", "npm:8.4.35"],\
           ["stylelint", "npm:16.2.1"],\
           ["stylelint-config-recommended-scss", "virtual:dd8e49c6c65db686f7c3a64f80e65ae3515f63b85ee700f202a52ed4f60eac0da5b6ea4894be3c336d31c340420d828937d203414dc4e856d21740f4df8c71a1#npm:14.0.0"],\
           ["stylelint-config-standard", "virtual:dd8e49c6c65db686f7c3a64f80e65ae3515f63b85ee700f202a52ed4f60eac0da5b6ea4894be3c336d31c340420d828937d203414dc4e856d21740f4df8c71a1#npm:36.0.0"]\
