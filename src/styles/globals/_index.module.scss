@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    line-height: 20px;
     list-style-type: none;
     text-decoration: none;
     color: COLORS.$dark-gray;
@@ -11,6 +10,10 @@
 
 h1, h2, h3, h4, h5, h6 {
     color: COLORS.$light-blue;
+}
+
+p {
+    line-height: 20px;
 }
 
 :global(#ROOT) {
