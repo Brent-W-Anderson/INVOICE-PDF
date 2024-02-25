@@ -1,15 +1,15 @@
-@use './colors.scss' as colors;
+@use './colors.scss' as COLORS;
 
 * {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    color: colors.$dark-gray;
+    color: COLORS.$dark-gray;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: colors.$light-blue;
+    color: COLORS.$light-blue;
 }
 
 :global(#root) {

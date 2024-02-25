@@ -29,10 +29,10 @@ const Pages: React.FC = () => {
                             }
                         />
 
-                        {/* TODO: list of invoices are tied to user authentication */}
+                        {/* TODO: list of invoices are tied to user authentication. */}
                         <Route path={ROUTES.INVOICES} element={<Spinner />} />
 
-                        {/* TODO: toggle login or settings based on authentication */}
+                        {/* TODO: toggle login or settings based on authentication. */}
                         <Route
                             path={ROUTES.LOGIN}
                             element={
@@ -41,6 +41,7 @@ const Pages: React.FC = () => {
                                 </Suspense>
                             }
                         />
+                        {/* TODO: add user specific data, should be able to modify also. */}
                         <Route path={ROUTES.SETTINGS} element={<Spinner />} />
 
                         {/* RE-ROUTES */}

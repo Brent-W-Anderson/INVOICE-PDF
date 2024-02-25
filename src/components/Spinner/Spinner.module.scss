@@ -1,4 +1,4 @@
-@use '../../styles/globals/colors.scss' as colors;
+@use '../../styles/globals/colors.scss' as COLORS;
 
 @keyframes spin {
     to {
@@ -15,7 +15,7 @@
 
     &::after {
         content: " ";
-        border-top: 4px solid colors.$blue;
+        border-top: 4px solid COLORS.$blue;
         border-radius: 50%;
         height: 50px;
         width: 50px;

@@ -1,4 +1,4 @@
-/* Position */
+// Position
 .position-relative {
     position: relative;
 }
@@ -7,7 +7,7 @@
     position: absolute;
 }
 
-/* Display and Justify Content */
+// Display and Justify Content
 .inline {
     display: flex;
 
@@ -26,7 +26,7 @@
     }
 }
 
-/* Text Alignment */
+// Text Alignment
 .text-left {
     text-align: left;
 }
@@ -39,7 +39,7 @@
     text-align: right;
 }
 
-/* Padding */
+// Padding
 .padding-20 {
     padding: 20px;
 
@@ -52,7 +52,7 @@
     }
 }
 
-/* Margin */
+// Margin
 .margin-20 {
     margin: 20px;
 
@@ -65,7 +65,7 @@
     }
 }
 
-/* Border Radius */
+// Border Radius
 .border-rounded {
     border-radius: 9999px;
 }

@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
             >
                 {buildTab(NAVBAR.NEW, 0)}
 
-                {/* TODO: list of invoices are tied to user authentication */}
+                {/* TODO: list of invoices are tied to user authentication. */}
                 {false && buildTab(NAVBAR.INVOICES, 1)}
 
                 <NavLink
