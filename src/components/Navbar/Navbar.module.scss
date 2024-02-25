@@ -1,0 +1,79 @@
+@use '../../styles/globals/colors.scss' as colors;
+@use '../../styles/globals/fontSizes.scss' as FONTS;
+
+#navbar {
+    z-index: 9999;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        border-bottom: 2px solid colors.$dark-gray;
+        box-shadow: 0 0 16px rgba(colors.$dark-gray, 0.5);
+        width: 100vw;
+        height: 100%;
+        bottom: 0;
+        z-index: -1;
+    }
+
+    .logo {
+        box-sizing: border-box;
+        background: lighten(colors.$light-blue, 15%);
+        border: 3px solid colors.$dark-gray;
+        box-shadow: 0 0 16px rgba(colors.$dark-gray, 0.5);
+        border-radius: 8px;
+        width: 86px;
+        height: 86px;
+        z-index: 1;
+    }
+
+    .logo-background {
+        left: 15px;
+        top: 15px;
+        width: 86px;
+        height: 86px;    
+        border :5px solid colors.$white;
+    }
+
+    .links {
+        user-select: none;
+        margin-left: 126px;
+        margin-bottom: 0;
+        width: 100%;
+
+        a {
+            cursor: pointer;
+            background-clip: text;
+            font-weight: bold;
+            font-size: FONTS.$size-20;
+            color: colors.$dark-gray;
+            padding: 10px;
+
+            &.login {
+                right: 20px;
+            }
+
+            &:active:not(&.selected) {
+                opacity: 0.5;
+            }
+
+            &.selected {
+                cursor: default;
+                color: colors.$light-blue;
+            }
+        }
+    
+        span {
+            transition: left 0.2s ease-out, width 0.5s ease-out;
+            border-bottom: 2px solid colors.$light-blue;
+            background-image: linear-gradient(
+                to top,
+                rgba(colors.$white, 0) 0%,
+                rgba(colors.$white, 0.4) 25%,
+                rgba(colors.$white, 0.4) 75%,
+                rgba(colors.$white, 0) 100%,
+            );
+            height: 100%;
+            bottom: 0;
+        }
+    }
+}

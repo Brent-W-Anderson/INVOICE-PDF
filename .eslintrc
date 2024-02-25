@@ -33,5 +33,5 @@
             }
         ]
     },
-    "ignorePatterns": ["dist/", "node_modules/", "**/*.module.scss.d.ts"]
+    "ignorePatterns": ["dist/", "node_modules/", "**/*.scss.d.ts"]
 }

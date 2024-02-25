@@ -1,0 +1,75 @@
+/* Position */
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+/* Display and Justify Content */
+.inline {
+    display: flex;
+
+    &.space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &.space-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &.gap-20 {
+        gap: 20px;
+    }
+}
+
+/* Text Alignment */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Padding */
+.padding-20 {
+    padding: 20px;
+
+    &.vertical {
+        padding: 20px 0;
+    }
+    
+    &.horizontal {
+        padding: 0 20px;
+    }
+}
+
+/* Margin */
+.margin-20 {
+    margin: 20px;
+
+    &.vertical {
+        margin: 20px 0;
+    }
+    
+    &.horizontal {
+        margin: 0 20px;
+    }
+}
+
+/* Border Radius */
+.border-rounded {
+    border-radius: 9999px;
+}
+
+.border-circle {
+    border-radius: 50%;
+}

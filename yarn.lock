@@ -684,6 +684,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/router@npm:1.15.1":
+  version: 1.15.1
+  resolution: "@remix-run/router@npm:1.15.1"
+  checksum: 10c0/2f84d998defe9943a40fd5bf8794ee6ede521116ff24275cc2294830adb039ef86e34dbdd6555300600016fd8a58a244d4f4df73ff0b2cec7bd749f63d172587
+  languageName: node
+  linkType: hard
+
 "@rollup/pluginutils@npm:^4.2.0":
   version: 4.2.1
   resolution: "@rollup/pluginutils@npm:4.2.1"
@@ -833,6 +840,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/history@npm:^4.7.11":
+  version: 4.7.11
+  resolution: "@types/history@npm:4.7.11"
+  checksum: 10c0/3facf37c2493d1f92b2e93a22cac7ea70b06351c2ab9aaceaa3c56aa6099fb63516f6c4ec1616deb5c56b4093c026a043ea2d3373e6c0644d55710364d02c934
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.12":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
@@ -860,6 +874,27 @@ __metadata:
   dependencies:
     "@types/react": "npm:*"
   checksum: 10c0/88d7c6daa4659f661d0c97985d9fca492f24b421a34bb614dcd94c343aed7bea121463149e97fb01ecaa693be17b7d1542cf71ddb1705f3889a81eb2639a88aa
+  languageName: node
+  linkType: hard
+
+"@types/react-router-dom@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "@types/react-router-dom@npm:5.3.3"
+  dependencies:
+    "@types/history": "npm:^4.7.11"
+    "@types/react": "npm:*"
+    "@types/react-router": "npm:*"
+  checksum: 10c0/a9231a16afb9ed5142678147eafec9d48582809295754fb60946e29fcd3757a4c7a3180fa94b45763e4c7f6e3f02379e2fcb8dd986db479dcab40eff5fc62a91
+  languageName: node
+  linkType: hard
+
+"@types/react-router@npm:*":
+  version: 5.1.20
+  resolution: "@types/react-router@npm:5.1.20"
+  dependencies:
+    "@types/history": "npm:^4.7.11"
+    "@types/react": "npm:*"
+  checksum: 10c0/1f7eee61981d2f807fa01a34a0ef98ebc0774023832b6611a69c7f28fdff01de5a38cabf399f32e376bf8099dcb7afaf724775bea9d38870224492bea4cb5737
   languageName: node
   linkType: hard
 
@@ -3401,6 +3436,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"invoice-pdf@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "invoice-pdf@workspace:."
+  dependencies:
+    "@types/react": "npm:^18.2.46"
+    "@types/react-dom": "npm:^18.2.18"
+    "@types/react-router-dom": "npm:^5.3.3"
+    "@typescript-eslint/eslint-plugin": "npm:^6.17.0"
+    "@typescript-eslint/parser": "npm:^7.0.2"
+    "@vitejs/plugin-react": "npm:^4.2.1"
+    classnames: "npm:^2.5.1"
+    concurrently: "npm:^8.2.2"
+    eslint: "npm:^8.56.0"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-config-standard-with-typescript: "npm:^43.0.0"
+    eslint-plugin-import: "npm:^2.29.1"
+    eslint-plugin-json: "npm:^3.1.0"
+    eslint-plugin-prettier: "npm:^5.1.2"
+    eslint-plugin-promise: "npm:^6.1.1"
+    eslint-plugin-react: "npm:^7.33.2"
+    prettier: "npm:^3.1.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:^6.22.1"
+    rimraf: "npm:^5.0.5"
+    sass: "npm:^1.71.1"
+    stylelint: "npm:^16.1.0"
+    stylelint-config-standard-scss: "npm:^13.0.0"
+    typed-scss-modules: "npm:^8.0.0"
+    typescript: "npm:^5.3.3"
+    vite: "npm:^5.0.10"
+    vite-plugin-html: "npm:^3.2.2"
+  languageName: unknown
+  linkType: soft
+
 "ip-address@npm:^9.0.5":
   version: 9.0.5
   resolution: "ip-address@npm:9.0.5"
@@ -4756,6 +4826,30 @@ __metadata:
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
   checksum: 10c0/b8ae07ad153357d77830928a7f1fc2df837aabefee907fa273ba04c7643f3b860e986f1d4b7ada9b721c8d79b8c24b5b911a314a1a2398b105f1b13d19ea2b8d
+  languageName: node
+  linkType: hard
+
+"react-router-dom@npm:^6.22.1":
+  version: 6.22.1
+  resolution: "react-router-dom@npm:6.22.1"
+  dependencies:
+    "@remix-run/router": "npm:1.15.1"
+    react-router: "npm:6.22.1"
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 10c0/1e6ec4596f134204934d4f701b8acc426867532342c8aec1b5c4ffeaf23afa0099727f58ab8687f7838db069616b8d6ed05a065570f23b3b60cbff405b3fbccd
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.22.1":
+  version: 6.22.1
+  resolution: "react-router@npm:6.22.1"
+  dependencies:
+    "@remix-run/router": "npm:1.15.1"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 10c0/bb33c3a6457e73fa9977133be0c27b60accfc6452cc5d7b62c729cdd2d091a1345a9567cf852c651315548f1f16adac258eeab8ad193b46e4ce926c911dc857c
   languageName: node
   linkType: hard
 
@@ -6141,36 +6235,3 @@ __metadata:
   checksum: 10c0/dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
   languageName: node
   linkType: hard
-
-"your-project-name@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "your-project-name@workspace:."
-  dependencies:
-    "@types/react": "npm:^18.2.46"
-    "@types/react-dom": "npm:^18.2.18"
-    "@typescript-eslint/eslint-plugin": "npm:^6.17.0"
-    "@typescript-eslint/parser": "npm:^7.0.2"
-    "@vitejs/plugin-react": "npm:^4.2.1"
-    classnames: "npm:^2.5.1"
-    concurrently: "npm:^8.2.2"
-    eslint: "npm:^8.56.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-config-standard-with-typescript: "npm:^43.0.0"
-    eslint-plugin-import: "npm:^2.29.1"
-    eslint-plugin-json: "npm:^3.1.0"
-    eslint-plugin-prettier: "npm:^5.1.2"
-    eslint-plugin-promise: "npm:^6.1.1"
-    eslint-plugin-react: "npm:^7.33.2"
-    prettier: "npm:^3.1.1"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    rimraf: "npm:^5.0.5"
-    sass: "npm:^1.71.1"
-    stylelint: "npm:^16.1.0"
-    stylelint-config-standard-scss: "npm:^13.0.0"
-    typed-scss-modules: "npm:^8.0.0"
-    typescript: "npm:^5.3.3"
-    vite: "npm:^5.0.10"
-    vite-plugin-html: "npm:^3.2.2"
-  languageName: unknown
-  linkType: soft
